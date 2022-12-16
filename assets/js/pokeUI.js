@@ -59,15 +59,15 @@ return `
 <div class = "contain">
         <h2>About</h2>
         <ol class =  "other">
-            <li class = "listItem">tipos:</li>
+            <li class = "listItem">Tipos:</li>
                 <hr/>
-            <li class = "listItem"> ${algoai.types}</li>
+            <li class = "listItem"> ${(algoai.types)}</li>
                 <hr/>
-            <li class = "listItem">outros:</li>
+            <li class = "listItem">Outros:</li>
                 <hr/>
-            <li class = "listItem">peso: ${algoai.weight/10}Kg</li>
+            <li class = "listItem">Peso: ${algoai.weight/10}Kg</li>
                 <hr/>
-            <li class = "listItem">altura: ${algoai.height/10}m</li> 
+            <li class = "listItem">Altura: ${algoai.height/10}m</li> 
         </ol>
     </div>
 </div>
